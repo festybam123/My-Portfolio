@@ -41,13 +41,13 @@ export default function Hero() {
         >
           <motion.div variants={itemVariants} className="space-y-4">
             <motion.h1 
-              className="text-5xl md:text-7xl font-bold text-gray-900"
+              className="text-5xl md:text-7xl font-serif text-blue-700"
               variants={itemVariants}
             >
               Festus Bamikole
             </motion.h1>
             <motion.p 
-              className="text-xl md:text-2xl text-gray-600"
+              className="text-xl md:text-2xl text-gray-700"
               variants={itemVariants}
             >
              I'm A Full Stack Developer
