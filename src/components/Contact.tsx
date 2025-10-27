@@ -74,7 +74,7 @@ export default function Contact() {
           <motion.div variants={itemVariants} className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">Get In Touch</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Have a project in mind or want to collaborate? I'd love to hear from you!
+              Have a project in mind or want to collaborate? I'd love to hear from
             </p>
           </motion.div>
 
