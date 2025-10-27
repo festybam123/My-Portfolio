@@ -54,7 +54,7 @@ export default function Navigation() {
             animate={{ opacity: 1 }}
             className="text-xl font-bold text-gray-900"
           >
-            John Doe
+            Festus Bamikole
           </motion.div>
 
           {/* Desktop Navigation */}

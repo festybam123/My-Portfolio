@@ -44,13 +44,13 @@ export default function Hero() {
               className="text-5xl md:text-7xl font-bold text-gray-900"
               variants={itemVariants}
             >
-              John Doe
+              Festus Bamikole
             </motion.h1>
             <motion.p 
               className="text-xl md:text-2xl text-gray-600"
               variants={itemVariants}
             >
-              Full Stack Developer
+             I'm A Full Stack Developer
             </motion.p>
           </motion.div>
 
@@ -82,7 +82,7 @@ export default function Hero() {
             variants={itemVariants}
             className="text-lg text-gray-600 max-w-2xl mx-auto"
           >
-            I create beautiful, responsive web applications using modern technologies. 
+            I create beautiful responsive web applications using modern technologies. 
             Passionate about clean code, user experience, and solving complex problems.
           </motion.p>
 
