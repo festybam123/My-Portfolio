@@ -98,7 +98,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="font-medium text-gray-900">Email</p>
-                    <p className="text-gray-600">john.doe@example.com</p>
+                    <p className="text-gray-600">festusbamikole2018@gmail.com</p>
                   </div>
                 </div>
                 
@@ -107,8 +107,8 @@ export default function Contact() {
                     <Phone className="w-6 h-6 text-green-600" />
                   </div>
                   <div>
-                    <p className="font-medium text-gray-900">Phone</p>
-                    <p className="text-gray-600">+1 (555) 123-4567</p>
+                    <p className="font-medium text-gray-900">Phone No</p>
+                    <p className="text-gray-600">+234 8160779706</p>
                   </div>
                 </div>
                 
@@ -118,7 +118,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="font-medium text-gray-900">Location</p>
-                    <p className="text-gray-600">San Francisco, CA</p>
+                    <p className="text-gray-600">Oyo State, Ibadan</p>
                   </div>
                 </div>
               </div>
