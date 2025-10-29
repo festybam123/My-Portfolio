@@ -118,7 +118,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="font-medium text-gray-900">Location</p>
-                    <p className="text-gray-600">Oyo State, Ibadan</p>
+                    <p className="text-gray-600">Lagos State</p>
                   </div>
                 </div>
               </div>

@@ -50,7 +50,8 @@ export default function Experience() {
           <motion.div variants={itemVariants} className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">Work Experience</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              My professional journey and the companies I've had the pleasure to work with
+             I got my hands dirty with real-world projects, collaborating with diverse teams, and honing my skills in dynamic environments.
+             I have worked across various companies, adapting to different challenges and contributing to impactful solutions. 
             </p>
           </motion.div>
 
