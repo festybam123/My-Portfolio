@@ -83,7 +83,7 @@ export default function Hero() {
             className="text-lg text-gray-600 max-w-2xl mx-auto"
           >
             I create beautiful responsive web applications using modern technologies. 
-            Passionate about clean code, user experience, and solving complex problems.
+            Passionate about clean code, user experience, and solving Any complex problems.
           </motion.p>
 
           <motion.div 

@@ -42,7 +42,7 @@ export default function About() {
             <h2 className="text-4xl font-bold text-gray-900">About Me</h2>
             <div className="space-y-4 text-gray-600 leading-relaxed">
               <p>
-                I'm a passionate full-stack developer with over 4 years of experience 
+                I'm a passionate full-stack developer with over 3 years of experience 
                 building web applications that solve real-world problems. I love working 
                 with modern technologies and creating seamless user experiences.
               </p>
@@ -83,15 +83,15 @@ export default function About() {
             <div className="aspect-square bg-gradient-to-br from-blue-400 to-purple-600 rounded-2xl p-8 text-white">
               <div className="h-full flex flex-col justify-center space-y-6">
                 <div className="text-center">
-                  <div className="text-4xl font-bold">4+</div>
+                  <div className="text-5xl font-bold">3+</div>
                   <div className="text-blue-100">Years Experience</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-4xl font-bold">30+</div>
+                  <div className="text-5xl font-bold">20+</div>
                   <div className="text-blue-100">Projects Completed</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-4xl font-bold">99.9%</div>
+                  <div className="text-5xl font-bold">99.9%</div>
                   <div className="text-blue-100">Client Satisfaction</div>
                 </div>
               </div>
