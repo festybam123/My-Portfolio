@@ -86,18 +86,20 @@ export default function Hero() {
             Passionate about clean code, user experience, and solving Any complex problems.
           </motion.p>
 
-          <motion.div 
+          <motion.div
             variants={itemVariants}
             className="flex flex-col sm:flex-row gap-4 justify-center items-center"
           >
-            <motion.button
+            <motion.a
+              href="/resume.pdf"
+              download
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="px-8 py-3 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 transition-colors flex items-center space-x-2"
             >
               <Download size={20} />
               <span>Download Resume</span>
-            </motion.button>
+            </motion.a>
             
             <div className="flex space-x-4">
               <motion.a
