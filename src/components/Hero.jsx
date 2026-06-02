@@ -92,7 +92,7 @@ export default function Hero() {
           >
             <motion.a
               href="/resume.pdf"
-              download
+              download="Festus_Bamikole_Resume.pdf"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="px-8 py-3 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 transition-colors flex items-center space-x-2"
