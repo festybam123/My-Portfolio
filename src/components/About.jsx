@@ -69,7 +69,7 @@ export default function About() {
               <div>
                 <h3 className="font-semibold text-gray-900 mb-2">Backend Expertise</h3>
                 <p className="text-gray-600 text-sm">
-                  Building robust APIs, managing databases, and ensuring 
+                  Building APIs, managing databases, and ensuring 
                   scalable architecture for complex applications.
                 </p>
               </div>
@@ -83,7 +83,7 @@ export default function About() {
             <div className="aspect-square bg-gradient-to-br from-blue-400 to-purple-600 rounded-2xl p-8 text-white">
               <div className="h-full flex flex-col justify-center space-y-6">
                 <div className="text-center">
-                  <div className="text-5xl font-bold">3+</div>
+                  <div className="text-5xl font-bold">4+</div>
                   <div className="text-blue-100">Years Experience</div>
                 </div>
                 <div className="text-center">

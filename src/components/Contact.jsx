@@ -46,7 +46,7 @@ export default function Contact() {
     
     try {
       await submitContact(formData);
-      toast.success("Message sent successfully! I'll get back to you soon.");
+      toast.success("Message sent succe ssfully! I'll get back to you soon.");
       setFormData({ name: "", email: "", message: "" });
     } catch (error) {
       toast.error("Failed to send message. Please try again.");
@@ -118,7 +118,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="font-medium text-gray-900">Location</p>
-                    <p className="text-gray-600">Oyo State, Ibadan</p>
+                    <p className="text-gray-600">Lagos State</p>
                   </div>
                 </div>
               </div>

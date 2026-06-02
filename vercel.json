@@ -1,0 +1,23 @@
+{
+  "framework": "vite",
+  "buildCommand": "vite build",
+  "outputDirectory": "dist",
+  "env": {
+    "VITE_CONVEX_URL": "https://next-cobra-162.convex.cloud"
+  },
+  "headers": [
+    {
+      "source": "/resume.pdf",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/pdf"
+        },
+        {
+          "key": "Content-Disposition",
+          "value": "attachment; filename=resume.pdf"
+        }
+      ]
+    }
+  ]
+}

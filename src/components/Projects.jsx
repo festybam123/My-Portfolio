@@ -1,14 +1,15 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import { useQuery } from "convex/react";
+import { useQuery, useMutation } from "convex/react";
 import { api } from "../../convex/_generated/api";
 import { Github, ExternalLink, Star } from "lucide-react";
 
 export default function Projects() {
-  const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, margin: "-100px" });
-  const projects = useQuery(api.portfolio.getProjects) || [];
+   const ref = useRef(null);
+   const isInView = useInView(ref, { once: true, margin: "-100px" });
+   const projects = useQuery(api.portfolio.getProjects) || [];
+   const seedData = useMutation(api.seed.seedData);
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -59,6 +60,14 @@ export default function Projects() {
             <p className="text-gray-600 max-w-2xl mx-auto">
               A showcase of my projects from beginner to advanced level, demonstrating growth and expertise
             </p>
+            {projects.length === 0 && (
+              <button
+                onClick={() => seedData()}
+                className="mt-4 px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+              >
+                Seed Sample Projects
+              </button>
+            )}
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
